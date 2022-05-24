@@ -1,6 +1,9 @@
-public struct DemoCustomFramework {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+
+public struct DemoCustomFramework {
+    
+    public static func doSomeWork()
+    {
+        print("Do Some Work....")
     }
 }
